@@ -1,0 +1,133 @@
+/* Care Notes List Styles */
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.search-bar-container {
+  margin-bottom: 20px;
+}
+
+.search-container {
+  position: relative;
+  width: 250px;
+  max-width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 35px 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #4a69bd;
+  box-shadow: 0 0 0 2px rgba(74, 105, 189, 0.2);
+}
+
+.clear-search {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.clear-search:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.resident-filter {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+  min-width: 200px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 12 6"><path d="M0 0l6 6 6-6z" fill="%23333"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 30px;
+}
+
+.resident-filter:focus {
+  outline: none;
+  border-color: #4a69bd;
+  box-shadow: 0 0 0 2px rgba(74, 105, 189, 0.2);
+}
+
+.search-info {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+.care-note {
+  border-left: 4px solid #4a69bd;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.care-note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.care-note-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.care-note-header span {
+  font-size: 14px;
+  color: #666;
+}
+
+.care-note-content {
+  margin-bottom: 10px;
+}
+
+.care-note-author {
+  font-style: italic;
+  color: #666;
+  font-size: 14px;
+}
+
+.loading, .error {
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.error {
+  color: #dc3545;
+  border-left: 4px solid #dc3545;
+}
