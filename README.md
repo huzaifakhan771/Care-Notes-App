@@ -75,6 +75,24 @@ Care-Notes-App/
 
 ### Running the Application
 
+#### Option 1: Using the convenience script (Linux/Mac)
+
+1. Make sure the script is executable:
+   ```
+   chmod +x run.sh
+   ```
+
+2. Run the script:
+   ```
+   ./run.sh
+   ```
+
+3. Open your browser and navigate to `http://localhost:3000`
+
+4. Press Ctrl+C to stop both servers when done
+
+#### Option 2: Running servers separately
+
 1. Start the backend server:
    ```
    cd backend
