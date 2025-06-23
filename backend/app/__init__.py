@@ -1,0 +1,3 @@
+"""
+Care Notes API package.
+"""
