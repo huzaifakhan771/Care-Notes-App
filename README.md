@@ -57,7 +57,7 @@ Care-Notes-App/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/Care-Notes-App.git
+   git clone https://github.com/huzaifakhan771/Care-Notes-App.git
    cd Care-Notes-App
    ```
 
