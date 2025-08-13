@@ -45,8 +45,6 @@ build/
 .env
 .venv
 venv/
-ENV/
-
 # Database
 *.sqlite
 *.db
